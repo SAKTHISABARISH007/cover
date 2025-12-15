@@ -32,7 +32,6 @@ Publish the website in the LocalHost.
 
 ## PROGRAM:
 ```
-book.html
 <html>
     <head>
         <title>Book Cover</title>
@@ -59,8 +58,10 @@ book.html
             </div>
             <br><br><br>
             <div class="id7">
-                <font class="color">SASH Publishers  </font><br><font>Price:</font><font class="color">$9.99</font>
-                <br>
+                <font class="color">SASH Publishers  </font>
+                <div class="price">
+                <font>Price:</font><font class="color">$9.99</font>
+                </div>
                 <font>Printed in USA</font>    
             </div>
         </div>
@@ -68,8 +69,8 @@ book.html
 </html>
 
 
-
 styles.css
+
 
 h1{
     padding-left: 5px;
@@ -129,12 +130,16 @@ font{
     padding: 4px;
     border-radius: 5px 5px ;
 }
+.price
+    {
+    padding-left: 88%;
+    }
 
 
 ```
 
 ## OUTPUT:
-![alt text](image-1.png)
+![alt text](image.png)
 
 ## RESULT:
 The program for designing book back cover page using HTML and CSS is completed successfully.
